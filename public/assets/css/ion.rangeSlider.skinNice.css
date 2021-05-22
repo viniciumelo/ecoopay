@@ -1,0 +1,110 @@
+
+
+.irs-line-mid,
+.irs-line-left,
+.irs-line-right,
+.irs-bar,
+.irs-bar-edge,
+.irs-slider {
+    background: url(../img/sprite-skin-nice.png) repeat-x;
+}
+
+.irs {
+    height: 40px;
+}
+.irs-with-grid {
+    height: 80px;
+}
+.irs-line {
+    height: 14px;
+    top: 25px;
+    border-radius: 20px;
+}
+    .irs-line-left {
+        height: 14px;
+        background: #00BA40;
+    }
+    .irs-line-mid {
+        height: 14px;
+        background: #eef0f3;
+    }
+    .irs-line-right {
+        height: 14px;
+        background: #eef0f3;
+    }
+
+.irs-bar {
+    height: 14px;
+    top: 25px;
+    background: #00BA40;
+}
+    .irs-bar-edge {
+        top: 25px;
+        height: 14px;
+        background: #00ba40;
+        border-radius: 20px 0 0 20px;
+    }
+
+.irs-shadow {
+    height: 1px; top: 34px;
+    background: #000;
+    opacity: 0.15;
+}
+.lt-ie9 .irs-shadow {
+    filter: alpha(opacity=15);
+}
+
+.irs-slider {
+    width: 70px;
+    height: 70px;
+    top: -3px;
+    background: url('../img/icon-picker.svg') no-repeat 50% 50%;
+    cursor: -webkit-grab;
+    z-index: 2;
+}
+.irs-slider.state_hover, .irs-slider:hover {
+}
+
+.irs-min, .irs-max {
+    color: #edf0f5;
+    font-size: 14px;
+    line-height: 1.333;
+    text-shadow: none;
+    top: -25px;
+    padding: 3px 10px 2px;
+    background: rgb(154, 161, 175);
+    -moz-border-radius: 3px;
+    border-radius: 26px;
+    font-weight: 500;
+}
+.lt-ie9 .irs-min, .lt-ie9 .irs-max {
+    background: #ccc;
+}
+
+.irs-from, .irs-to, .irs-single {
+    color: #fff;
+    font-size: 14px;
+    line-height: 1.333;
+    text-shadow: none;
+    padding: 3px 10px 2px;
+    background: rgb(0, 186, 64);
+    -moz-border-radius: 3px;
+    border-radius: 26px;
+    top: -25px;
+    box-shadow: 0 0 15px 0 rgba(0,0,0,0.10);
+    color: #fff;
+    font-weight: 500;
+}
+.lt-ie9 .irs-from, .lt-ie9 .irs-to, .lt-ie9 .irs-single {
+    background: #999;
+}
+
+.irs-grid-pol {
+    background: #99a4ac;
+}
+.irs-grid-text {
+    color: #99a4ac;
+}
+
+.irs-disabled {
+}
