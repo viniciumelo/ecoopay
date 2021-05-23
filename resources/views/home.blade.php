@@ -2,7 +2,10 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	    <meta name="description" content="O Ecoopay é uma carteira digital para gerenciar microcrédito cooperativista municipal destinado a microempreendedores.">
+	    <meta name="keywords" content="crédito, ecoopay, crédito">
+	    <meta name="robots" content="index,follow" />
 
         <title>Ecoopay - Gerenciando e unindo pessoas para criar um ecossistema de crédito sustentável</title>
 
@@ -214,9 +217,8 @@
                             <div class="col-md-12">
                                 <a class="footer-logo" href="https://www.ecoopay.com.br">
                                     <img src="/assets/images/logo.png" alt="Ecoopay" />
+                                    
                                 </a>
-                                
-                                
                                 
                                 <ul class="social-links">
                                     <li>
