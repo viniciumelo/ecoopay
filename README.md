@@ -1,8 +1,12 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="http://ecoopay.com.br/public/img/logo-ecoopay.png" width="400"></a></p>
+<p align="center"><a href="https://ecoopay.com.br" target="_blank"><img src="https://ecoopay.com.br/public/img/logo-ecoopay.png" width="400"></a></p>
 
+Projeto desenvolvido para o Hackathon Araguina Cidade empreendedora SEBRAE 2021
 
+Site - [http://ecoopay.com.br/](http://ecoopay.com.br/)
 
-## About API ECOOPAY
+## About ECOOPAY
+
+O Ecoopay é uma carteira digital para gerenciar microcrédito cooperativista municipal destinado a microempreendedores. O intuito é distribuir o crédito na carteira Ecoopay e usar o PIX como moeda rastreável para fazer pagamentos, facilitar prestação de contas e garantir mais ética na aplicação dos recursos.
 
 API para gerenciamento de crédito projeto em Laravel 8 e banco de dados em mysql.
 
