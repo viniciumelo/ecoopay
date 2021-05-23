@@ -17,7 +17,8 @@
 
         <link rel="stylesheet" href="/assets/css/ion.rangeSlider.css">
         <link rel="stylesheet" href="/assets/css/ion.rangeSlider.skinNice.css">
-        
+        <link rel="stylesheet" href="/assets/css/bootstrap.css">
+    
         <link rel="stylesheet" href="/assets/css/tools.css">
 
         <style>
@@ -53,24 +54,31 @@
                                 <li>
                                     <a href="#">Sobre</a>
                                 </li>
-                                <li>
-                                    <a href="#">Login</a>
-                                </li>
-                            
+                                
+                               
+							</ul>
+                            <ul class="nav navbar-nav navbar-right">
+								<li>
+									<a class="link-text" href="#">Cadastre-se</a>
+								</li>
+								<li>
+									<a class="btn-register" href="#">Login</a>
+								</li>
+                            </ul>
                                                     
                         </div>
                     </div>
                 </nav>
             </div>
 
-                    <!-- Hero -->
+                    <!-- Investidor -->
             <div id="hero">
                 <div class="container vertical-align">
                     <div class="row">
                         <div class="col-md-6">
                             <div class="hero-caption">
                                 <h1>Quer ser um credor Ecoopay?</h1>
-                                <p>Gerenciando e unindo pessoas para <br />criar um ecossistema de crédito sustentável!</p>
+                                <p>Descubra uma nova maneira de ganhar dinheiro  <br />e ainda ajudar no crescimento da economia de sua cidade!</p>
                                 <a class="btn btn-green" href="#">Seja um Investidor</a>
                             </div>
                         </div>
@@ -78,10 +86,162 @@
                 </div>
             </div>
 
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-6 col-sm-12 col-xs-12">
+                        <div class="calculate-widget">
+                            
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="section-title">
+                                        <h2>Já pensou em receber juros de até 50% a.a. emprestando seu dinheiro para empresas?</h2>
+                                        <p>Monte sua carteira.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="range-slider">
+                                        <input type="text" id="calculate-input" name="calculate-input" value="" />
+                                    </div>
+                                </div>
+                            </div>			
+                            
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="calculate-result-box">
+                                        <h3>Valor aplicado</h3>
+                                        <div class="cr-text cr-1"><span>2000</span> R$</div>
+                                        <p>Seus ganhos podem mudar dependendo do aumento / diminuição da taxa de jurus a ser paga pelo devedor.</p>
+                                    </div>
+
+                                    <div class="calculate-result-box">
+                                        <h3>Ganhos</h3>
+                                        <div class="cr-text cr-2"><span>360</span> R$</div>
+                                        <p>* Seus ganhos calculados como 25%.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Emprestimos? -->
+            <div id="howitworks" class="section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="section-title">
+                                <h2>Precisa de emprestimo para dar uma força no seu negócio?</h2>
+                                <p>Estamos aqui para dar um UP no seu negócio nesse momento tao dificil que estamos passando!</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-md-4 col-sm-4">
+                            <div class="hiw-box">
+                                <div class="hiw-icon">
+                                    <img src="/assets/images/hiw-icon-3.svg" alt="cadastro" />
+                                </div>
+                                <h3>Cadastre-se na plataforma</h3>
+                                <p>Cadastre-se e em 1 dia útil validamos sua conta. Os únicos documentos necessários são de identidade e comprovante de endereço.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-4 col-sm-4">
+                            <div class="hiw-box">
+                                <div class="hiw-icon">
+                                    <img src="/assets/images/hiw-icon-4.svg" alt="analise" />
+                                </div>
+                                <h3>Análise e Aprovação</h3>
+                                <p>Seu perfil é analisado por nosso sistema e liberado pelo gestor do crédito.</p>
+                            </div>
+                        </div>
+                    
+                        <div class="col-md-4 col-sm-4">
+                            <div class="hiw-box">
+                                <div class="hiw-icon">
+                                    <img src="/assets/images/hiw-icon-2.svg" alt="crédito" />
+                                </div>
+                                <h3>Use o crédito</h3>
+                                <p>Recebe o dinheiro em sua carteira digital e começa a utilizar o crédito. </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="center">
+                                <a class="btn btn-green" href="#">Solicite agora!</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            </div>
             
-
-
-
+            <!-- Aplicativo -->
+            <div id="mobile-apps">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="phone-text">
+                                <h3>Nosso aplicativo é onde <br />ira usar seus créditos!</h3>
+                                <p>Ecoopay e usa o PIX como moeda rastreável para fazer pagamentos,  <br />facilitando a prestação de contas e garantindo mais ética na aplicação dos recursos.</p>
+                                <p>O sistema envia ao usuário dicas de como gastar o crédito e orienta  <br />quais locais tem os melhores preços.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 hidden-xs hidden-sm">
+                            <div class="phone-image">
+                                <img src="/assets/images/phone-image.png" alt="app ecoopay" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+                
+                </div>
+                
+                <!-- Footer -->
+                <div id="footer">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <a class="footer-logo" href="https://www.ecoopay.com.br">
+                                    <img src="/assets/images/logo.png" alt="Ecoopay" />
+                                </a>
+                                
+                                
+                                
+                                <ul class="social-links">
+                                    <li>
+                                        <a class="social-instagram" target="_blank" href="#"></a>
+                                    </li>
+                                    <li>
+                                        <a class="social-facebook" target="_blank" href="#"></a>
+                                    </li>
+                                    <li>
+                                        <a class="social-twitter" target="_blank" href="#"></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="row credits">
+                            <div class="col-md-6 col-sm-6">
+                                <p>Copyright &copy; 2021 Ecoopay</p>
+                            </div>
+                            <div class="col-md-6 col-sm-6">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
 
 
