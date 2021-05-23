@@ -116,7 +116,7 @@
                                     <div class="calculate-result-box">
                                         <h3>Valor aplicado</h3>
                                         <div class="cr-text cr-1"><span>2000</span> R$</div>
-                                        <p>Seus ganhos podem mudar dependendo do aumento / diminuição da taxa de jurus a ser paga pelo devedor.</p>
+                                        <p>Seus ganhos podem mudar dependendo do aumento / diminuição da taxa de juros a ser paga pelo devedor.</p>
                                     </div>
 
                                     <div class="calculate-result-box">
